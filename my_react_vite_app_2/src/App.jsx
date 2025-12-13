@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-      <Greeter person="Rosa"/>
-      <Greeter person="Ted"/>
-      <Greeter person="Bill"/>
+      <Greeter person="Rosa" from="Tanya" />
+      <Greeter person="Ted" from="Tanya" />
+      <Greeter person="Bill" from="Tanya" />
     </>
   )
 }
