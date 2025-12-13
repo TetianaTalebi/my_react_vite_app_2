@@ -1,14 +1,12 @@
 import './App.css'
-import Greeter from './Greeter'
+import Die from './Die'
 
 function App() {
   
 
   return (
     <>
-      <Greeter person="Rosa" from="Tanya" />
-      <Greeter person="Ted" from="Tanya" />
-      <Greeter person="Bill" from="Tanya" />
+      <Die/>
     </>
   )
 }
