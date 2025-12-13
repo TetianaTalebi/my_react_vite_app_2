@@ -1,4 +1,4 @@
-export default function Die({numSides}) {
+export default function Die({numSides=6}) {
 
     console.log(`numSides=${numSides}`);
 

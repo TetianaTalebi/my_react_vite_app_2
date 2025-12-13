@@ -6,9 +6,11 @@ function App() {
 
   return (
     <>
-      <Die numSides={20}/>
+      <Die />
       <Die numSides={3} />
       <Die numSides={10} />
+      <Die />
+      <Die numSides={100} />
     </>
   )
 }
