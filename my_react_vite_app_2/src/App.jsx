@@ -6,7 +6,9 @@ function App() {
 
   return (
     <>
-      <Die/>
+      <Die numSides={20}/>
+      <Die numSides={3} />
+      <Die numSides={10} />
     </>
   )
 }
