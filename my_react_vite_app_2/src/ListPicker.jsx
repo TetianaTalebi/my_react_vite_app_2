@@ -1,16 +1,24 @@
 
-// values = array
+// values = object
 
 export default function ListPicker({values}){
 
-    // randIdx = random index from values array
-    const randIdx = Math.floor(Math.random()*values.length);
-    const randElement = values[randIdx];
+    
+    const randIdx = Math.floor(Math.random()*Object.keys(values).length);
+    console.log(Object.keys(values));
+   
+
+    const randElementProperty = values[Object.keys(values)[randIdx]];
+
+    console.log(randElementProperty);
 
     return (
         <div>
-            <p>The list of values: {values}</p>
-            <p>Random element is: {randElement}</p>
+            <p>The list of object keys: {Object.keys(values)}</p>
+            <p>The random key is: {Object.keys(values)[randIdx]}</p>
+
+            <p>The list of object properties: {Object.values(values)}</p>
+            <p>Random property is: {randElementProperty}</p>
         </div>
     )
 }

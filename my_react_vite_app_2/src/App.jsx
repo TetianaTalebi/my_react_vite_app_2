@@ -6,8 +6,8 @@ function App() {
 
   return (
     <>
-      <ListPicker values={[1,2,3,4]} />
-      <ListPicker values={["a", "b", "c"]} />
+      <ListPicker values={{a: 21, b: 43, c: 50}} />
+      <ListPicker values={{fff: 100, lsls: "someString", ddd: "anotherString"}} />
     </>
   )
 }
