@@ -1,14 +1,12 @@
 import './App.css'
-import Heading from './Heading'
+import ColorList from './ColorList'
 
 function App() {
   
 
   return (
     <>
-      <Heading text="Hello!" />
-      <Heading text="Wonderful Day!" color="silver" fontSize="20px" />
-      <Heading text="Lol" color="#BF94E4" fontSize="60px" />
+      <ColorList colors={['red', 'pink', '#BF94E4', 'magenta', 'teal']} />
     </>
   )
 }
