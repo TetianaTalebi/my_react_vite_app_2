@@ -1,12 +1,12 @@
 import './App.css'
-import ColorList from './ColorList'
+import SlotMachine from './SlotMachine'
 
 function App() {
   
 
   return (
     <>
-      <ColorList colors={['red', 'pink', '#BF94E4', 'magenta', 'teal']} />
+      <SlotMachine />
     </>
   )
 }
