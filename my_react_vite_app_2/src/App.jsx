@@ -1,16 +1,13 @@
 import './App.css'
-import Die from './Die'
+import ListPicker from './ListPicker'
 
 function App() {
   
 
   return (
     <>
-      <Die />
-      <Die numSides={3} />
-      <Die numSides={10} />
-      <Die />
-      <Die numSides={100} />
+      <ListPicker values={[1,2,3,4]} />
+      <ListPicker values={["a", "b", "c"]} />
     </>
   )
 }
