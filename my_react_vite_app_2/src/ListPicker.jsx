@@ -1,7 +1,7 @@
 
 // values = object
-
-export default function ListPicker({values}){
+// style={color: "blue"} - default style
+export default function ListPicker({values, style={color: "blue"}}){
 
     
     const randIdx = Math.floor(Math.random()*Object.keys(values).length);
@@ -13,7 +13,7 @@ export default function ListPicker({values}){
     console.log(randElementProperty);
 
     return (
-        <div>
+        <div style={style}>
             <p>The list of object keys: {Object.keys(values)}</p>
             <p>The random key is: {Object.keys(values)[randIdx]}</p>
 
