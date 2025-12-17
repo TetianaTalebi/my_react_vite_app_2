@@ -1,0 +1,18 @@
+import { useState } from "react";
+
+function Counter(){
+
+    const [num, setNum] = useState(5);
+    
+    const changeNum = ()=>setNum(num+1);
+    
+
+    return (
+        <div style={{fontSize: '40px'}}>
+            <p>The count is: {num}</p>
+            <button onClick={changeNum} >Increment</button>
+        </div>
+    )
+
+}
+export default Counter
