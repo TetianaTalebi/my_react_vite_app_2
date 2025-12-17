@@ -1,12 +1,12 @@
 import './App.css'
-import SlotMachine from './SlotMachine'
+import Clicker from './Clicker'
 
 function App() {
   
 
   return (
     <>
-      <SlotMachine />
+      <Clicker />
     </>
   )
 }
