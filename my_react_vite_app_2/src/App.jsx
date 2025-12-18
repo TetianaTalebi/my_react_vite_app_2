@@ -1,12 +1,13 @@
 import './App.css'
-import Toggler from './Toggler'
+import Counter2 from './Counter2'
 
 function App() {
   
 
   return (
     <>
-      <Toggler />
+      <h1>State Demo</h1>
+      <Counter2 />
     </>
   )
 }
