@@ -1,12 +1,12 @@
 import './App.css'
-import GameBoard from './GameBoard'
+import ScoreKeeper from './ScoreKeeper'
 
 function App() {
   
 
   return (
     <>
-      <GameBoard />
+      <ScoreKeeper />
     </>
   )
 }
