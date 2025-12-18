@@ -1,13 +1,12 @@
 import './App.css'
-import Counter2 from './Counter2'
+import GameBoard from './GameBoard'
 
 function App() {
   
 
   return (
     <>
-      <h1>State Demo</h1>
-      <Counter2 />
+      <GameBoard />
     </>
   )
 }
