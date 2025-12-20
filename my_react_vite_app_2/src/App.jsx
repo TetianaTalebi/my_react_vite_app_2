@@ -1,12 +1,13 @@
 import './App.css'
-import EmojiClicker from './EmojiClicker'
+import ScoreKeeper2 from './ScoreKeeper2'
 
 function App() {
-  
 
   return (
     <>
-      <EmojiClicker />
+      <ScoreKeeper2 />
+      <br/>
+      <ScoreKeeper2 targetNum={3} numOfPlayers={4} />
     </>
   )
 }
