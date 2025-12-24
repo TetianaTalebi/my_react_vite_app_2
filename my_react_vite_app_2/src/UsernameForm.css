@@ -1,0 +1,58 @@
+.UsernameForm {
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.UsernameForm button,
+.UsernameForm input {
+    border-radius: 10px;
+}
+
+.UsernameForm,
+.UsernameForm input {
+    font-size: 40px;
+}
+
+.UsernameForm input {
+    padding: 0.5rem 2rem;
+}
+
+.UsernameForm label {
+    margin-bottom: 5rem;
+    font-size: 50px;
+    font-weight: bold;
+    color: lavender;
+}
+
+.UsernameForm input::placeholder {
+    color: white;
+    opacity: 0.55;
+}
+
+.UsernameForm input:focus {
+    background-color: slateblue;
+}
+
+.UsernameForm button {
+    display: block;
+    margin: 8rem auto;
+}
+
+.UsernameForm button:hover {
+    background-color: slateblue;
+}
+
+.UsernameForm button:active {
+    background-color: white;
+    color: black;
+}
+
+.UsernameForm button:focus,
+.UsernameForm input:focus {
+    outline: solid white;
+    outline-offset: 1rem;
+}
+
