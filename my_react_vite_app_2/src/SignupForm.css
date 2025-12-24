@@ -1,0 +1,60 @@
+.SignupForm {
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignupForm button,
+.SignupForm input {
+    border-radius: 10px;
+}
+
+.SignupForm,
+.SignupForm input {
+    font-size: 40px;
+}
+
+.SignupForm input {
+    padding: 0.5rem 2rem;
+}
+
+.SignupForm label {
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    font-size: 50px;
+    font-weight: bold;
+    color: lavender;
+}
+
+.SignupForm input::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.SignupForm input:focus {
+    background-color: salmon;
+}
+
+.SignupForm button {
+    display: block;
+    margin: 8rem auto;
+}
+
+.SignupForm button:hover {
+    background-color: salmon;
+    border: none;
+}
+
+.SignupForm button:active {
+    background-color: white;
+    color: black;
+}
+
+.SignupForm button:focus,
+.SignupForm input:focus {
+    outline: solid white;
+    outline-offset: 1rem;
+}
+
