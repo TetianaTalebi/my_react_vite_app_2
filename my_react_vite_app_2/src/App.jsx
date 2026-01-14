@@ -1,11 +1,11 @@
 import './App.css'
-import SignupForm from './SignupForm'
+import CounterWithUseEffect from './CounterWithUseEffect'
 
 function App() {
 
   return (
     <>
-      <SignupForm />
+      <CounterWithUseEffect />
     </>
   )
 }
