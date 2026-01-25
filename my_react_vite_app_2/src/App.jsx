@@ -1,11 +1,11 @@
 import './App.css'
-import CounterWithUseEffect from './CounterWithUseEffect'
+import QuoteFetcher from './QuoteFetcher'
 
 function App() {
 
   return (
     <>
-      <CounterWithUseEffect />
+      <QuoteFetcher />
     </>
   )
 }
